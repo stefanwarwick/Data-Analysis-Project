@@ -33,6 +33,13 @@
 *Figure 2: My cleaned data sheet in Google Sheets.*
 
   I used the function to calculate the mean that is called average in Sheets for my pivot table about the average permit value for each municipality's average permit value. I also used “MAX” in the same table to find the highest value permit for each area. My other pivot table that tracks only the total amount of the values of all the building permits for each area uses “SUM”. This is the pivot table I used to make an exploratory Google Sheets chart. I also made a section where I took the median from each of the values for each municipality. I did this to make sure I'm aware of a situation where one number (looking at Vanier) can skew data as far as averages, like the situation in *The Truthful Art*, in the chapter "The Mode, the Median, and the Mean", during the section about geography graduates salaries(Cairo, 2016).
+
+### Functions Used
+`MEDIAN(cell:cell)`
+`MAX(cell:cell)`
+`MEAN(cell:cell)`
+Basic Division using `cell/1000000` to find value in millions.
+`CONCATENATE(A2:C2)` repeated for all addresses.
   
 ![](Pivot-Table-Average.png)<br>
 *Figure 3: First Pivot Table, Average Permit Values and Maximum Permit Values.*
