@@ -32,7 +32,7 @@
 ![](Final-Datasheet.png)<br>
 *Figure 2: My cleaned data sheet in Google Sheets.*
 
-  I used the function to calculate the mean that is called average in Sheets for my pivot table about the average permit value for each municipality's average permit value. I also used “MAX” in the same table to find the highest value permit for each area. My other pivot table that tracks only the total amount of the values of all the building permits for each area uses “SUM”. This is the pivot table I used to make an exploratory Google Sheets chart. I also made a section where I took the median from each of the values for each municipality.
+  I used the function to calculate the mean that is called average in Sheets for my pivot table about the average permit value for each municipality's average permit value. I also used “MAX” in the same table to find the highest value permit for each area. My other pivot table that tracks only the total amount of the values of all the building permits for each area uses “SUM”. This is the pivot table I used to make an exploratory Google Sheets chart. I also made a section where I took the median from each of the values for each municipality. I did this to make sure I'm aware of a situation where one number (looking at Vanier) can skew data as far as averages, like the situation in *The Truthful Art*, in the chapter "The Mode, the Median, and the Mean", during the section about geography graduates salaries(Cairo, 2016).
   
 ![](Pivot-Table-Average.png)<br>
 *Figure 3: First Pivot Table, Average Permit Values and Maximum Permit Values.*
@@ -49,7 +49,7 @@
 ## Delivering Data
 
   I prepared my data for visualization by creating my pivot tables and using them for the source of my DataWrapper charts. I decided to do this by downloading my data as CSV files.
-  First I downloaded my data as CSV files for each visualization. I then brought it into DataWrapper, at which point I created a column chart and a bar chart. I realized that in my chart about the average building permit value for each municipality, due to the Vanier seeming so much more heavily invested in than it really is, I needed to find a way for the data to be more truthful (INSERT QUOTE FROM TEXTBOOK ABOUT TRUTH). I decided to go back to my Google Sheet and add another column for the maximum value of the permits.  Once I did this I brought it back into datawrapper. From there I changed the chart to be a bullet bar chart, to show both values but not necessarily compare the two values directly to each other. Since the values are so different from each other, a grouped column chart did not look good enough to show the lower values. After this I changed the colours to be very different from each other so they stood out, and so colourblind people could still see the differences. I then filled out all of the information like the description and the link to the original data.
+  First I downloaded my data as CSV files for each visualization. I then brought it into DataWrapper, at which point I created a column chart and a bar chart. I realized that in my chart about the average building permit value for each municipality, due to the Vanier seeming so much more heavily invested in than it really is, I needed to find a way for the data to be more truthful. I think it is similar to the chart that is Figure 2.2 of chapter 2 in *The Truthful Art*(Cairo, 2016), because it does not acknowledge the missing information, so I hope my charts do not fall into the same "untruthful" category that chart does since I counteract it in this chart plus my second chart showing the total amount invested in each area. I decided to go back to my Google Sheet and add another column for the maximum value of the permits.  Once I did this I brought it back into datawrapper. From there I changed the chart to be a bullet bar chart, to show both values but not necessarily compare the two values directly to each other. Since the values are so different from each other, a grouped column chart did not look good enough to show the lower values. After this I changed the colours to be very different from each other so they stood out, and so colourblind people could still see the differences. I then filled out all of the information like the description and the link to the original data.
   
 ![](average-building-permit-value-by-municipality(1).png)<br>
 *Figure 6: Average Building Permit Value and Maximum Building Permit Value by Municipality.*
@@ -66,4 +66,6 @@
 
 ## 6. References
 
-Include a list of your references here.
+
+The Truthful Art: Data, Charts, and Maps for Communication. (2016). New Riders.
+
