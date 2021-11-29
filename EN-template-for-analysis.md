@@ -3,6 +3,8 @@
 **Stefan Warwick**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
+# Basic Data Analysis & Visualization: Where is Money Being Invested In Ottawa
+
 ## Introduction
 
   This assignment asks us to clean and interpret a dataset larger than we have previously used. We also must create a visualization with the data. The dataset was sourced from the City of Ottawa’s open data portal, and provided to us from our professor. The data is collected based on the issuance of building permits. The main sections of this assignment will show me getting the data and importing it into Google Sheets, including observations about the data that I made, how I cleaned and analyzed the data, and what functions I used to do this, and how I delivered the data through making charts in Datawrapper. Here is a link to the data set from City of Ottawa’s website: [City of Ottawa Open Data Portal](https://open.ottawa.ca/documents/ottawa::construction-demolition-and-pool-enclosure-permits-monthly-2020/about)
