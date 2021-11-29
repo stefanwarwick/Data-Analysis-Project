@@ -40,6 +40,7 @@
 `MEAN(cell:cell)`<br>
 Basic Division using `cell/1000000` to find value in millions.<br>
 `CONCATENATE(A2:C2)` repeated for all addresses.<br>
+`SUM(cell:cell)`
   
 ![](Pivot-Table-Average.png)<br>
 *Figure 3: First Pivot Table, Average Permit Values and Maximum Permit Values.*
